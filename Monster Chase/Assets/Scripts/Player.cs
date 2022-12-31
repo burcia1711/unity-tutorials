@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO.IsolatedStorage;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -14,8 +15,9 @@ public class Player : MonoBehaviour
     private Rigidbody2D myBody;
     private Animator anim;
     private string WALK_ANIMATION = "Walk";
+    private string GROUND_TAG = "Ground";
     private SpriteRenderer sr;
-
+    private bool isGrounded;
     private void Awake()
     {
         myBody = GetComponent<Rigidbody2D>();
@@ -33,6 +35,11 @@ public class Player : MonoBehaviour
     {
         PlayerMoveKeyboard();
         AnimatePlayer();
+    }
+
+    private void FixedUpdate()
+    {
+        PlayerJump();
     }
 
     void PlayerMoveKeyboard()
@@ -59,5 +66,23 @@ public class Player : MonoBehaviour
             anim.SetBool(WALK_ANIMATION, false);
         }
     }
+
+    void PlayerJump()
+    {
+        if (Input.GetButtonDown("Jump") && isGrounded)
+        {
+            isGrounded = false;
+            myBody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);    
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag(GROUND_TAG))
+        {
+            isGrounded = true;
+        }
+    }
+
 
 }
