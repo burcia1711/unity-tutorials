@@ -11,8 +11,6 @@ Day  | Contents Covered
 
 # Monster Chase Game (some screens)
 
-<img src="/Monster Chase/v1.jpg">
+<img src="/Monster Chase/v2.png">
 
-<img src="/Monster Chase/v2.jpg">
-
-<img src="/Monster Chase/v3.jpg">
+<img src="/Monster Chase/v3.png">
