@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     private string GROUND_TAG = "Ground";
     private SpriteRenderer sr;
     private bool isGrounded;
+    private string ENEMY_TAG = "Enemy";
     private void Awake()
     {
         myBody = GetComponent<Rigidbody2D>();
@@ -71,8 +72,8 @@ public class Player : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
+            myBody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
             isGrounded = false;
-            myBody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);    
         }
     }
 
@@ -81,6 +82,11 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag(GROUND_TAG))
         {
             isGrounded = true;
+        }
+
+        if (collision.gameObject.CompareTag(ENEMY_TAG))
+        {
+            Destroy(gameObject);
         }
     }
 
