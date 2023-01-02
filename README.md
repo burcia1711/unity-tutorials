@@ -7,4 +7,12 @@ Day  | Contents Covered
 1  | Introduction, Download Unity And Unity Hub, Creating A New Project, Unity Interface, Unity Basics, Rigid Bodies And Colliders, Audio Source And UI Elements, Moving Our Character With Code, Introduction To Variables, Operations With Variables, Functions, Conditional Statements, Loops, Coroutines, Classes, Accessibility Modifiers (Data Encapsulation), Inheritance, Getting Components
 2  | Monster Chase Game Intro, Importing Assets, Creating Player Animations, Sorting Layers And Order In Layer, Creating The Game Background, Player Movement, Animating The Player Via Code
 3  | Player Jumping, Camera Follow Player, Enemy Animations, Enemy Script, Enemy Spawner
- <img src="/Monster Chase/v1.jpg">
+4  | Enemy Collision, The Collector Script, Unity's UI System, Creating Main Menu
+
+# Monster Chase Game (some screens)
+
+<img src="/Monster Chase/v1.jpg">
+
+<img src="/Monster Chase/v2.jpg">
+
+<img src="/Monster Chase/v3.jpg">
