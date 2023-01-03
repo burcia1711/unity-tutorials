@@ -12,7 +12,4 @@ Day  | Contents Covered
 
 
 # Monster Chase Game (some screens)
-
-<img src="/Monster Chase/v2.png">
-
-<img src="/Monster Chase/v3.png">
+<img src="/Monster Chase/v3.png" width=255> <img src="/Monster Chase/v2.png" width=350> <img src="/Monster Chase/v4-final.png" width=255>
