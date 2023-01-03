@@ -8,6 +8,8 @@ Day  | Contents Covered
 2  | Monster Chase Game Intro, Importing Assets, Creating Player Animations, Sorting Layers And Order In Layer, Creating The Game Background, Player Movement, Animating The Player Via Code
 3  | Player Jumping, Camera Follow Player, Enemy Animations, Enemy Script, Enemy Spawner
 4  | Enemy Collision, The Collector Script, Unity's UI System, Creating Main Menu
+5  | Navigating Between Scenes, Selecting A Character, Static Variables, Singleton Pattern, Events And Delegates, Instantiating The Selected Character, Finishing Our Game
+
 
 # Monster Chase Game (some screens)
 
