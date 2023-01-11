@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Obstacle
+  - Scoring
+  - Spawner
+  - GameManager
+  - Score
+  - GameOver
+  - PlayButton
+  - Obstacles
+  - Ground
+  - Pipe
   layers:
   - Default
   - TransparentFX

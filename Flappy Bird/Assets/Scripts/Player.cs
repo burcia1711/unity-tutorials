@@ -36,13 +36,24 @@ public class Player : MonoBehaviour
 
         // Apply gravity and update the position
         direction.y += gravity * Time.deltaTime;
-        direction.x += speed * Time.deltaTime;
         transform.position += direction * Time.deltaTime;
 
         // Tilt the bird based on the direction
         Vector3 rotation = transform.eulerAngles;
         rotation.z = direction.y * tilt;
         transform.eulerAngles = rotation;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Obstacle"))
+        {
+            FindObjectOfType<GameManager>().GameOver();
+        }
+        else if (other.gameObject.CompareTag("Scoring"))
+        {
+            FindObjectOfType<GameManager>().IncreaseScore();
+        }
     }
 
 
