@@ -11,5 +11,5 @@ Day  | Contents Covered
 5  | Navigating Between Scenes, Selecting A Character, Static Variables, Singleton Pattern, Events And Delegates, Instantiating The Selected Character, Finishing Our Game
 
 
-# Monster Chase Game (some screens)
-<img src="/Monster Chase/v3.png" width=255> <img src="/Monster Chase/v2.png" width=350> <img src="/Monster Chase/v4-final.png" width=255>
+# Monster Chase Game (some screens) 
+<img src="/Monster Chase/v3.png" width=250> <img src="/Monster Chase/v2.png" width=350> <img src="/Monster Chase/v4-final.png" width=250> 
