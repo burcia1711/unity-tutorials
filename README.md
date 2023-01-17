@@ -14,7 +14,8 @@ Day  | Contents Covered
 ### Monster Chase Game (some screens) 
 <img src="/Monster Chase/v3.png" width=250> <img src="/Monster Chase/v2.png" width=350> <img src="/Monster Chase/v4-final.png" width=250> 
 --------------------------
-## My Flappy Bird ###
+## * My Flappy Bird * ###
+<img src="/Flappy Bird/p1.png" width=350> <img src="/Flappy Bird/p2.png" width=350> 
 -------------------------
 ## 2. Zigurous - [How to make Tetris in Unity (Complete Tutorial) 🧩🧱](https://youtu.be/ODLzYI4d-J8)
 Day  | Contents Covered
