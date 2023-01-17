@@ -1,7 +1,7 @@
 # unity-tutorials 
 from different sources
 
-#### 1. FreeCodeCamp - [Learn Unity: Beginner's Game Development Tutorial](https://www.youtube.com/watch?v=gB1F9G0JXOo)
+## 1. FreeCodeCamp - [Learn Unity: Beginner's Game Development Tutorial](https://www.youtube.com/watch?v=gB1F9G0JXOo)
 Day  | Contents Covered
 ------------- | -------------
 1  | Introduction, Download Unity And Unity Hub, Creating A New Project, Unity Interface, Unity Basics, Rigid Bodies And Colliders, Audio Source And UI Elements, Moving Our Character With Code, Introduction To Variables, Operations With Variables, Functions, Conditional Statements, Loops, Coroutines, Classes, Accessibility Modifiers (Data Encapsulation), Inheritance, Getting Components
@@ -11,5 +11,13 @@ Day  | Contents Covered
 5  | Navigating Between Scenes, Selecting A Character, Static Variables, Singleton Pattern, Events And Delegates, Instantiating The Selected Character, Finishing Our Game
 
 
-# Monster Chase Game (some screens) 
+### Monster Chase Game (some screens) 
 <img src="/Monster Chase/v3.png" width=250> <img src="/Monster Chase/v2.png" width=350> <img src="/Monster Chase/v4-final.png" width=250> 
+--------------------------
+## My Flappy Bird ###
+-------------------------
+## 2. Zigurous - [How to make Tetris in Unity (Complete Tutorial) 🧩🧱](https://youtu.be/ODLzYI4d-J8)
+Day  | Contents Covered
+------------- | -------------
+1  | Intro, Project Creation, Importing Sprites, Scene Setup, Tilemap Setup, Tetromino Data, Spawning / Setting, Movement
+2  | Rotation, Wall Kicks, Steps & Locks, Line Clears, Ghost Piece, Outro
