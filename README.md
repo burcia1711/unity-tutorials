@@ -12,13 +12,24 @@ Day  | Contents Covered
 
 
 ### Monster Chase Game (some screens) 
-<img src="/Monster Chase/v3.png" width=250> <img src="/Monster Chase/v2.png" width=350> <img src="/Monster Chase/v4-final.png" width=250> 
+<img src="/Monster Chase/v3.png" width=200> <img src="/Monster Chase/v2.png" width=275> <img src="/Monster Chase/v4-final.png" width=200> 
 --------------------------
+
 ## * My Flappy Bird * ###
 <img src="/Flappy Bird/p1.png" width=350> <img src="/Flappy Bird/p2.png" width=350> 
 -------------------------
+
 ## 2. Zigurous - [How to make Tetris in Unity (Complete Tutorial) 🧩🧱](https://youtu.be/ODLzYI4d-J8)
 Day  | Contents Covered
 ------------- | -------------
 1  | Intro, Project Creation, Importing Sprites, Scene Setup, Tilemap Setup, Tetromino Data, Spawning / Setting, Movement
 2  | Rotation, Wall Kicks, Steps & Locks, Line Clears, Ghost Piece, Outro
+-------------------------
+
+## 3. Zigurous - [How to make Minesweeper in Unity (Complete Tutorial) 💣🏳️](https://youtu.be/HBrF8LJ0Hfg)
+Day  | Contents Covered
+------------- | -------------
+1  | Intro, Project Creation, Importing Sprites, Scene Setup, Data Structure, Tile Creation, Game Board
+2  | Cells, Mines, Numbers
+3  | Flagging, Revealing, Flooding, Exploding
+4  | Win State, Outro
