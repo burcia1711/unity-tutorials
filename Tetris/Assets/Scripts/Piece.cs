@@ -1,8 +1,6 @@
-using UnityEditor.Build.Reporting;
-using UnityEditor.Experimental.GraphView;
+
 using UnityEngine;
-using UnityEngine.Tilemaps;
-using UnityEngine.UIElements;
+
 
 public class Piece : MonoBehaviour
 {
