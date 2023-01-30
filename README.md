@@ -24,6 +24,8 @@ Day  | Contents Covered
 ------------- | -------------
 1  | Intro, Project Creation, Importing Sprites, Scene Setup, Tilemap Setup, Tetromino Data, Spawning / Setting, Movement
 2  | Rotation, Wall Kicks, Steps & Locks, Line Clears, Ghost Piece, Outro
+
+<img src="/Tetris/v1.png" width=250> <img src="/Tetris/v2.png" width=250> 
 -------------------------
 
 ## 3. Zigurous - [How to make Minesweeper in Unity (Complete Tutorial) 💣🏳️](https://youtu.be/HBrF8LJ0Hfg)
