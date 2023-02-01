@@ -64,7 +64,7 @@ public class Board : MonoBehaviour
         {
             case Cell.Type.Empty: return tileEmpty;
             case Cell.Type.Mine: return tileMine;
-            case Cell.Type.Number: return GetNumberTile(Cell);
+            case Cell.Type.Number: return GetNumberTile(cell);
             default: return null;
         }
     }
