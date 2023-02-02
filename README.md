@@ -36,4 +36,4 @@ Day  | Contents Covered
 3  | Flagging, Revealing, Flooding, Exploding
 4  | Win State, Outro
 
-<img src="/Minesweeper/v1.png" width=300> <img src="/Minesweeper/v2.png" width=275> 
+<img src="/Minesweeper/v1.png" width=300> <img src="/Minesweeper/v2.png" width=275> <img src="/Minesweeper/v3.png" width=275> 
