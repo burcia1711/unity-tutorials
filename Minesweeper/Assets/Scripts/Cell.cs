@@ -1,10 +1,10 @@
-
 using UnityEngine;
 
-public class Cell
+public struct Cell
 {
     public enum Type
     {
+        Invalid,
         Empty,
         Mine,
         Number,

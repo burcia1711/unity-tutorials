@@ -1,15 +1,16 @@
-using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
+[RequireComponent(typeof(Tilemap))]
 public class Board : MonoBehaviour
 {
     public Tilemap tilemap { get; private set; }
+
     public Tile tileUnknown;
     public Tile tileEmpty;
     public Tile tileMine;
     public Tile tileExploded;
-    public Tile tileFlagged;
+    public Tile tileFlag;
     public Tile tileNum1;
     public Tile tileNum2;
     public Tile tileNum3;
@@ -19,13 +20,10 @@ public class Board : MonoBehaviour
     public Tile tileNum7;
     public Tile tileNum8;
 
-
-
     private void Awake()
     {
-         tilemap = GetComponent<Tilemap>();   
+        tilemap = GetComponent<Tilemap>();
     }
-
 
     public void Draw(Cell[,] state)
     {
@@ -34,9 +32,9 @@ public class Board : MonoBehaviour
 
         for (int x = 0; x < width; x++)
         {
-            for (int y = 0; y < height; y++) 
+            for (int y = 0; y < height; y++)
             {
-                Cell cell = state[x,y];
+                Cell cell = state[x, y];
                 tilemap.SetTile(cell.position, GetTile(cell));
             }
         }
@@ -50,7 +48,7 @@ public class Board : MonoBehaviour
         }
         else if (cell.flagged)
         {
-            return tileFlagged;
+            return tileFlag;
         }
         else
         {
@@ -60,18 +58,18 @@ public class Board : MonoBehaviour
 
     private Tile GetRevealedTile(Cell cell)
     {
-        switch(cell.type)
+        switch (cell.type)
         {
             case Cell.Type.Empty: return tileEmpty;
-            case Cell.Type.Mine: return tileMine;
+            case Cell.Type.Mine: return cell.exploded ? tileExploded : tileMine;
             case Cell.Type.Number: return GetNumberTile(cell);
             default: return null;
         }
     }
 
-    private Tile GetNumberTile(Cell cell) 
+    private Tile GetNumberTile(Cell cell)
     {
-        switch(cell.number) 
+        switch (cell.number)
         {
             case 1: return tileNum1;
             case 2: return tileNum2;

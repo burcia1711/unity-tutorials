@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 433330550}
   - component: {fileID: 433330549}
+  - component: {fileID: 433330551}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -168,6 +169,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &433330551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433330548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 894f7b141288af14980e7765cc28e1c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 16
+  height: 16
+  mineCount: 32
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,7 +261,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 8, y: 8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -298,6 +314,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ab864b8aac83f94c90bb2a59a3e4797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tileUnknown: {fileID: 11400000, guid: 9b983088132bc284cbef5e96e21783be, type: 2}
+  tileEmpty: {fileID: 11400000, guid: 77d47fd4f92a3d947b73a45a5c47a88f, type: 2}
+  tileMine: {fileID: 11400000, guid: e5f9f439b3be05348968dc67de5c71de, type: 2}
+  tileExploded: {fileID: 11400000, guid: 9a66f4793cdf2e14cbaff635d2ffa9f9, type: 2}
+  tileFlag: {fileID: 11400000, guid: b224fbc9312b56f45bf509dcbd930752, type: 2}
+  tileNum1: {fileID: 11400000, guid: 3beff8eb58714fa4880c03c7658fcc5a, type: 2}
+  tileNum2: {fileID: 11400000, guid: 1ad85e8c064770b4ba8f5239c331937b, type: 2}
+  tileNum3: {fileID: 11400000, guid: 1dc86b83f2c18e6408d463b43c6a930d, type: 2}
+  tileNum4: {fileID: 11400000, guid: 98d170d5ba5d1364fb6edbf44e08fc42, type: 2}
+  tileNum5: {fileID: 11400000, guid: ade939fad47cf5d45bedbd61a7393928, type: 2}
+  tileNum6: {fileID: 11400000, guid: 5540f2408a623ae43afd42a95727e556, type: 2}
+  tileNum7: {fileID: 11400000, guid: bd73bed441d05654aa0df7be54a27018, type: 2}
+  tileNum8: {fileID: 11400000, guid: 77d3a64ae8276024fb7203545af620aa, type: 2}
 --- !u!483693784 &1271822198
 TilemapRenderer:
   m_ObjectHideFlags: 0
